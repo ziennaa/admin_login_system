@@ -1,7 +1,7 @@
 #  Admin Login & Student Database Management System
 > **Learning / Demo Project:** Developed as part of my learning journey to practice Python file I/O, user authentication, and CRUD operations.
 A **terminal-based Python application** that provides secure admin login functionality and a full-featured Student Database Management System. All data is stored in a CSV file and managed using Python’s standard libraries.
-
+> devloped for : class 12th CS EndTerm Lab project
 ---
 
 ##  Features
