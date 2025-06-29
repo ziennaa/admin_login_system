@@ -71,7 +71,7 @@ Learning Outcomes:
 - No role-based access control – any valid user acts as “admin.”
 - CSV storage is not thread- or transaction-safe; not suitable for concurrent users.
 - Terminal-only interface; no GUI or web frontend.
-- 
+  
 ---
 
 ## Scope for Improvements:
