@@ -47,7 +47,7 @@ Learning Outcomes:
 
 ---
 
-## 🧪 How to Run the Project
+##  How to Run the Project
 
 1. **Clone this repository:**
    ```bash
@@ -56,7 +56,7 @@ Learning Outcomes:
 
 2. No external libraries needed; uses Python standard library.
 3. Run the main script:
-  bash
+  ```bash
   Copy
   Edit
   python main.py
@@ -68,21 +68,11 @@ Learning Outcomes:
 ## Limitations:
 - Passwords are stored in **plain text** inside the CSV file.
 - No input validation (e.g., email format, phone number length).
-- No role-based access control – any valid user acts as “admin.”
-- CSV storage is not thread- or transaction-safe; not suitable for concurrent users.
-- Terminal-only interface; no GUI or web frontend.
+- No role-based access control any valid user acts as “admin.”
+- CSV storage is not thread or transaction safe; not suitable for concurrent users.
+- Terminal only interface; no GUI or web frontend.
   
 ---
-
-## Scope for Improvements:
-1. **Password Encryption**: Hash passwords with `hashlib` or `bcrypt` before saving.
-2. **Input Validation**: Use regex to validate emails, phone numbers, and numeric fields.
-3. **Database Backend**: Migrate from CSV to SQLite or another RDBMS.
-4. **GUI/Web Interface**: Build a desktop GUI (Tkinter/PyQt) or web app (Flask/Django).
-5. **Role Management**: Introduce user roles (admin vs. student) with different permissions.
-6. **Logging & Auditing**: Record all admin actions to a log file for traceability.
-7. **Pagination & Search**: Implement pagination and advanced search/filtering for large datasets.
-   
 ---
 
 ## References:
