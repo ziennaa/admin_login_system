@@ -1,7 +1,6 @@
 #  Admin Login & Student Database Management System
-> **Learning / Demo Project:** Developed as part of my learning journey to practice Python file I/O, user authentication, and CRUD operations.
-A **terminal-based Python application** that provides secure admin login functionality and a full-featured Student Database Management System. All data is stored in a CSV file and managed using Python’s standard libraries.
-> devloped for : class 12th CS EndTerm Lab project
+> **Learning / Demo Project:** Developed as part of my learning journey to practice Python file I/O, user authentication, and CRUD operations. A **terminal based Python application** that provides secure admin login functionality and a full featured Student Database Management System. All data is stored in a CSV file and managed using Python’s standard libraries.<br>
+**Devloped for CBSE class 12th CS EndTerm Lab project**
 ---
 
 ##  Features
@@ -23,10 +22,10 @@ A **terminal-based Python application** that provides secure admin login functio
 Learning Outcomes:
 - Practice reading from and writing to CSV files using Python’s `csv` module.
 - Implement basic user authentication with hidden password entry (`getpass`).
-- Design a simple menu-driven CRUD (Create, Read, Update, Delete) interface.
+- Design a simple menu driven CRUD (Create, Read, Update, Delete) interface.
 - Structure a small terminal application with separation of concerns.
-- Understand data persistence in a flat-file system.
-- 
+- Understand data persistence in a flat file system.
+
 ---
 ##  Technologies Used
 
@@ -43,7 +42,7 @@ Learning Outcomes:
 | File Name      | Description                                                     |
 |----------------|-----------------------------------------------------------------|
 | `main.py`      | Main Python script containing login and database logic          |
-| `students.csv` | CSV file storing student records (auto-generated on first run)  |
+| `students.csv` | CSV file storing student records (auto generated on first run)  |
 
 ---
 
@@ -57,9 +56,8 @@ Learning Outcomes:
 2. No external libraries needed; uses Python standard library.
 3. Run the main script:
   ```bash
-  Copy
-  Edit
   python main.py
+```
   Login as Admin:
   Use any of the sample credentials above or add your own.
 
@@ -68,11 +66,10 @@ Learning Outcomes:
 ## Limitations:
 - Passwords are stored in **plain text** inside the CSV file.
 - No input validation (e.g., email format, phone number length).
-- No role-based access control any valid user acts as “admin.”
+- No role based access control any valid user acts as “admin.”
 - CSV storage is not thread or transaction safe; not suitable for concurrent users.
 - Terminal only interface; no GUI or web frontend.
   
----
 ---
 
 ## References:
